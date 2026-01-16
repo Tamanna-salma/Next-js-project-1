@@ -7,7 +7,7 @@ import {
     UserCircle, ChevronDown, LogOut, Settings
 } from 'lucide-react';
 
-const Navbar = () => {
+const Navber = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isProfileOpen, setIsProfileOpen] = useState(false);
     const { theme, setTheme } = useTheme();
@@ -127,4 +127,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Navber;
