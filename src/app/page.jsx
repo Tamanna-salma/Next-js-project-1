@@ -1,9 +1,13 @@
+"use client";
 import Image from "next/image";
+import Banner from "@/components/Banner/Banner";
+import Category from "@/components/Category/Category";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-     <p>hello</p>
+    <div>
+      <Banner />
+      <Category />
     </div>
   );
 }

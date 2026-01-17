@@ -15,10 +15,11 @@ const Navber = () => {
 
     const [user, setUser] = useState({ name: "Rifat", isLoggedIn: true });
 
-    // Hydration error 
+    // Hydration error fix - return placeholder with same height
     useEffect(() => setMounted(true), []);
 
-    if (!mounted) return null;
+    // Return placeholder during hydration
+    if (!mounted) return <div className="h-[200px] w-full" />;
 
     return (
         <header className="w-full sticky top-0 z-50 shadow-sm">
