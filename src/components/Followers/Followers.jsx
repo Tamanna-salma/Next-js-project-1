@@ -64,7 +64,7 @@ const Followers = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.1, duration: 0.5 }}
               whileHover={{ scale: 1.05 }}
-              className="p-8 rounded-3xl bg-gray-50 dark:bg-slate-800/50 border border-gray-300 dark:border-slate-700 flex flex-col items-center text-center group transition-all"
+              className="p-8 rounded-3xl bg-pink-100 dark:bg-slate-800/50 border border-gray-300 dark:border-slate-700 flex flex-col items-center text-center group transition-all"
             >
               {/* Icon Circle */}
               <div 
