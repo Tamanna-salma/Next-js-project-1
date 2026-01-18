@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import Link from 'next/link';
-import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook,  Linkedin, Instagram } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -39,7 +39,7 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link href="#" className="hover:text-white transition-colors">
+                <Link href="/services" className="hover:text-white transition-colors">
                   Services
                 </Link>
               </li>
@@ -70,28 +70,22 @@ const Footer = () => {
             <h3 className="text-white font-bold text-lg mb-4">Follow Us</h3>
             <div className="flex gap-4">
               <a
-                href="#"
+                href="https://web.facebook.com/?_rdc=1&_rdr#"
                 className="p-2 bg-gray-800 hover:bg-blue-600 rounded-full transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook size={18} />
               </a>
+               
               <a
-                href="#"
-                className="p-2 bg-gray-800 hover:bg-blue-400 rounded-full transition-colors"
-                aria-label="Twitter"
-              >
-                <Twitter size={18} />
-              </a>
-              <a
-                href="#"
+                href="https://www.linkedin.com/in/ummeysalma912a31317/"
                 className="p-2 bg-gray-800 hover:bg-blue-700 rounded-full transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={18} />
               </a>
               <a
-                href="#"
+                href="https://www.instagram.com/"
                 className="p-2 bg-gray-800 hover:bg-pink-500 rounded-full transition-colors"
                 aria-label="Instagram"
               >
