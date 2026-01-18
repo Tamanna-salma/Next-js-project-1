@@ -14,15 +14,15 @@ const Stats = () => {
   const technologies = ["React", "Next.js", "Node.js", "Python", "MongoDB", "PostgreSQL", "Docker", "AWS", "Firebase", "GraphQL", "Vue.js", "TypeScript"];
 
   return (
-    <section className="py-16 px-4">
+    <section className="py-14 px-4">
 
-      <div className="max-w-7xl mx-auto bg-gradient-to-br from-[#9da6c5] via-[#3b82f6] to-[#6b4d9e] text-white shadow-2xl rounded-[2.5rem] overflow-hidden">
+      <div className="max-w-7xl mx-auto bg-gradient-to-br from-[#959fc5] via-[#3b82f6] to-[#6b4d9e] text-white shadow-2xl rounded-[2.5rem] overflow-hidden">
         
         <div className="py-14 px-6 md:px-20">
           
           {/* Header */}
           <div className="text-center mb-12">
-            <h2 className="text-2xl md:text-4xl font-black tracking-tight">
+            <h2 className="text-xl md:text-4xl font-black tracking-tight">
               Our Digital Impact
             </h2>
             <div className="w-20 h-1 bg-white/30 mx-auto mt-4 rounded-full"></div>

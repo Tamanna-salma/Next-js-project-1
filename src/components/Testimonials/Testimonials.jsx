@@ -36,8 +36,8 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="py-14 bg-white dark:bg-[#0a0f1d]">
-      <div className="max-w-7xl mx-auto px-6 md:px-24 p-14">
+    <section className="py-14 bg-gray-100 dark:bg-[#0a0f1d]">
+      <div className="max-w-7xl mx-auto px-4 md:px-24 p-14">
         
         {/* Header */}
         <div className="text-center mb-16">
@@ -58,7 +58,7 @@ const Testimonials = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: i * 0.1 }}
               whileHover={{ y: -10 }}
-              className="p-8 bg-gray-50 dark:bg-slate-800 rounded-2xl border border-gray-200 dark:border-slate-700 shadow-lg hover:shadow-xl transition-all"
+              className="p-4 bg-gray-50 dark:bg-slate-800 rounded-2xl border border-blue-400 dark:border-slate-700 shadow-lg hover:shadow-xl transition-all"
             >
               
               {/* Stars */}
