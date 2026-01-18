@@ -2,14 +2,14 @@
 import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { categoriesData } from '@/data/data'; // আপনার ডাটা পাথ নিশ্চিত করুন
+import { categoriesData } from '@/data/data'; 
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
 
 
 const Services = () => {
   return (
-    <section className="py-24 bg-gray-50 dark:bg-[#0a0f1d]">
-      <div className="container mx-auto px-6 md:px-24">
+    <section className="py-24 bg-gray-100 dark:bg-[#0a0f1d]">
+      <div className=" mx-auto px-4 md:px-24">
         
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">

@@ -98,7 +98,7 @@ const Navber = () => {
                     <li><Link href="/" className="hover:text-[#0dc4d4] transition">Home</Link></li>
                     <li><Link href="/about" className="hover:text-[#0dc4d4] transition">About us</Link></li>
                     <li><Link href="/services" className="hover:text-[#0dc4d4] transition">Services</Link></li>
-                    <li><Link href="/items" className="text-blue-400 font-bold hover:text-blue-300">Items/List</Link></li>
+                    <li><Link href="/potfolio" className="text-blue-400 font-bold hover:text-blue-300">Items/List</Link></li>
                     <li><Link href="/blog" className="hover:text-[#0dc4d4] transition">Blog</Link></li>
                     <li><Link href="/contact" className="hover:text-[#0dc4d4] transition">Contact us</Link></li>
                 </ul>
@@ -119,7 +119,7 @@ const Navber = () => {
                         <Link href="/" className="dark:text-white" onClick={() => setIsOpen(false)}>Home</Link>
                         <Link href="/about" className="dark:text-white" onClick={() => setIsOpen(false)}>About us</Link>
                         <Link href="/services" className="dark:text-white" onClick={() => setIsOpen(false)}>Services</Link>
-                        <Link href="/items" className="text-blue-600 font-bold" onClick={() => setIsOpen(false)}>Items</Link>
+                        <Link href="/blog" className="text-blue-600 font-bold" onClick={() => setIsOpen(false)}>Items</Link>
                         <Link href="/contact" className="bg-[#3071b6] text-white p-3 rounded-lg text-center font-bold" onClick={() => setIsOpen(false)}>Get Consultation</Link>
                     </div>
                 )}
