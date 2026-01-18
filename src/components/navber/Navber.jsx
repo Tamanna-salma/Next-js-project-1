@@ -97,6 +97,7 @@ const Navber = () => {
                 <ul className="hidden lg:flex items-center gap-8 font-medium text-white">
                     <li><Link href="/" className="hover:text-[#0dc4d4] transition">Home</Link></li>
                     <li><Link href="/about" className="hover:text-[#0dc4d4] transition">About us</Link></li>
+                    <li><Link href="/all-projects" className="hover:text-[#0dc4d4] transition">All Projects</Link></li>
                     <li><Link href="/services" className="hover:text-[#0dc4d4] transition">Services</Link></li>
                     <li><Link href="/portfolio" className="text-blue-400 font-bold hover:text-blue-300">Portfolio</Link></li>
                     <li><Link href="/blog" className="hover:text-[#0dc4d4] transition">Blog</Link></li>
@@ -118,6 +119,7 @@ const Navber = () => {
                     <div className="absolute top-full left-0 w-full bg-white dark:bg-slate-900 shadow-xl flex flex-col p-6 space-y-4 lg:hidden z-[60] border-t dark:border-slate-800">
                         <Link href="/" className="dark:text-white" onClick={() => setIsOpen(false)}>Home</Link>
                         <Link href="/about" className="dark:text-white" onClick={() => setIsOpen(false)}>About us</Link>
+                        <Link href="/all-projects" className="dark:text-white" onClick={() => setIsOpen(false)}>All Projects</Link>
                         <Link href="/services" className="dark:text-white" onClick={() => setIsOpen(false)}>Services</Link>
                         <Link href="/portfolio" className="text-blue-600 font-bold" onClick={() => setIsOpen(false)}>Items</Link>
                         <Link href="/blog" className="text-blue-600 font-bold" onClick={() => setIsOpen(false)}>Blog</Link>
