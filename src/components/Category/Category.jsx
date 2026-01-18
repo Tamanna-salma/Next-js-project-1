@@ -7,9 +7,9 @@ import { Star } from 'lucide-react';
 
 const Category = () => {
   return (
-    <section className="py-14 bg-gray-50 dark:bg-[#0a0f1d]">
+    <section className="py-14 bg-gray-100 dark:bg-[#0a0f1d]">
       <div className=" mx-auto px-6 md:px-24">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 dark:text-white">
+        <h2 className="text-2xl md:text-4xl font-bold text-center mb-12 dark:text-white">
           Our <span className="text-[#3071b6]">Expertise</span>
         </h2>
 
@@ -18,26 +18,26 @@ const Category = () => {
             <motion.div 
               key={item.id}
               whileHover={{ y: -10 }}
-              className="p-8 bg-white dark:bg-slate-800 rounded-2xl shadow-lg border border-gray-100 dark:border-slate-700 flex flex-col justify-between"
+              className="p-4 bg-white dark:bg-slate-900 rounded-2xl shadow-lg border border-gray-400 dark:border-slate-700 flex flex-col justify-between"
             >
               <div>
                 <div className="text-6xl mb-4">{item.icon}</div>
                 <h3 className="text-xl font-bold mb-3 dark:text-white">{item.title}</h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-4 text-sm">{item.shortDesc}</p>
+                <p className="text-gray-900 dark:text-gray-400 mb-4 text-sm">{item.shortDesc}</p>
                 
-                <div className="flex items-center gap-2 mb-4">
+                <div className="flex items-center justify-between gap-2 mb-4">
                   <div className="flex items-center gap-1">
                     <Star size={16} className="fill-yellow-400 text-yellow-400" />
                     <span className="font-bold dark:text-white">{item.rating}</span>
                   </div>
-                  <span className="text-gray-500 dark:text-gray-400 text-sm">({item.reviews} reviews)</span>
+                  <span className="text-gray-700 dark:text-gray-400 text-sm">({item.reviews} reviews)</span>
                 </div>
 
-                <p className="text-2xl font-bold mb-6" style={{ color: item.color }}>{item.price}</p>
+                <p className="text-2xl font-bold mb-3" style={{ color: item.color }}>{item.price}</p>
               </div>
               
               <Link href={`/category/${item.id}`} className="block w-full">
-                <button className="w-full text-white font-bold py-2 px-4 rounded-lg transition-all duration-300 hover:shadow-lg active:scale-95 cursor-pointer" style={{ backgroundColor: item.color }}>
+                <button className="w-full text-white font-bold py-2 px-4 hover:bg-gray-600 rounded-lg transition-all duration-300 hover:shadow-lg active:scale-95  cursor-pointer bg-cyan-800">
                   View Details →
                 </button>
               </Link>

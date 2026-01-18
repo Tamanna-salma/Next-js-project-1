@@ -2,7 +2,6 @@
 import React from 'react';
 import { categoriesData } from '@/data/data';
 import { Star, Check } from 'lucide-react';
-import Image from 'next/image';
 import Link from 'next/link';
 
 const CategoryDetailPage = ({ params }) => {
@@ -37,7 +36,7 @@ const CategoryDetailPage = ({ params }) => {
         <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
           <div className="text-center text-white">
             <div className="text-8xl mb-4">{category.icon}</div>
-            <h1 className="text-5xl font-bold">{category.title}</h1>
+            <h1 className=" text-2xllg:text-5xl font-bold">{category.title}</h1>
           </div>
         </div>
       </div>

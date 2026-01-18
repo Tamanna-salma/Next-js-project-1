@@ -12,9 +12,9 @@ const Features = () => {
   ];
 
   return (
-    <section className="py-20 bg-white dark:bg-[#0a0f1d]">
-      <div className="container mx-auto px-6 md:px-24">
-        <h2 className="text-4xl font-bold text-center mb-16 dark:text-white">
+    <section className="py-14 bg-white dark:bg-[#0a0f1d]">
+      <div className="max-w-7xl mx-auto px-6 md:px-24 p-14">
+        <h2 className="text-2xl lg:text-4xl font-bold text-center mb-16 dark:text-white">
           Why Choose <span className="text-blue-600">LumenSoft?</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -22,7 +22,7 @@ const Features = () => {
             <motion.div
               key={i}
               whileHover={{ y: -10 }}
-              className="p-8 bg-gray-50 dark:bg-slate-800 rounded-xl text-center"
+              className="p-8 bg-gray-10 dark:bg-slate-800 rounded-xl text-center"
             >
               <div className="flex justify-center mb-4 text-blue-600">{feature.icon}</div>
               <h3 className="text-xl font-bold mb-2 dark:text-white">{feature.title}</h3>
