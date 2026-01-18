@@ -32,8 +32,8 @@ const HowItWorks = () => {
   ];
 
   return (
-    <section className="py-14 bg-gray-50 dark:bg-[#0a0f1d]">
-      <div className="max-w-7xl mx-auto px-6 md:px-24 p-14">
+    <section className="py-10 bg-gray-50 dark:bg-[#0a0f1d]">
+      <div className="max-w-7xl mx-auto px-4 md:px-24 p-14">
         
         {/* Header */}
         <div className="text-center mb-16">
@@ -61,7 +61,7 @@ const HowItWorks = () => {
                 <div className="hidden lg:block absolute -right-4 top-20 w-8 h-0.5 bg-blue-600/30"></div>
               )}
 
-              <div className="p-8 bg-white dark:bg-slate-800 rounded-2xl border border-gray-200 dark:border-slate-700 shadow-lg hover:shadow-xl transition-all">
+              <div className="p-8 bg-white dark:bg-slate-800 rounded-2xl border border-gray-300 dark:border-slate-700 shadow-lg hover:shadow-xl transition-all">
                 
                 {/* Step Number */}
                 <div className="flex items-center gap-4 mb-4">
@@ -86,10 +86,10 @@ const HowItWorks = () => {
           whileInView={{ opacity: 1, y: 0 }}
           className="text-center mt-16"
         >
-          <p className="text-gray-600 dark:text-gray-400 mb-6">
+          <p className="text-gray-600 dark:text-gray-400 mb-3">
             Ready to start your project? Let's work together!
           </p>
-          <button className="px-10 py-3 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors">
+          <button className="px-10 py-3 bg-cyan-700 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors">
             Get Started Now
           </button>
         </motion.div>

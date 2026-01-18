@@ -6,6 +6,8 @@ import CTA from "@/components/CTA/CTA";
 import Features from "@/components/Features/Features";
 import Stats from "@/components/Stats/Stats";
 import Testimonials from "@/components/Testimonials/Testimonials";
+import HowItWorks from "@/components/HowItWorks/HowItWorks";
+import Followers from "@/components/Followers/Followers";
 
 export default function Home() {
   
@@ -18,6 +20,8 @@ export default function Home() {
       <CTA></CTA>
       <Stats></Stats>
       <Testimonials></Testimonials>
+      <HowItWorks></HowItWorks>
+      <Followers></Followers>
 
      
     </div>
