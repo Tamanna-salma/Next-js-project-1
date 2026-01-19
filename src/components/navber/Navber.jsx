@@ -28,7 +28,7 @@ const Navber = () => {
                 <div className="flex gap-4 lg:gap-10">
                     <div className="flex items-center gap-1">
                         <Phone className='text-green-600' size={14} />
-                        <span>+8801676-347987</span>
+                        <span>+880189573184</span>
                     </div>
                     <div className="hidden md:flex items-center gap-1">
                         <Mail className='text-orange-500' size={14} />
@@ -70,9 +70,7 @@ const Navber = () => {
                                 <Link href="/profile" className="flex items-center gap-2 px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-slate-700 dark:text-white">
                                     <UserCircle size={16} /> Profile
                                 </Link>
-                                <Link href="/settings" className="flex items-center gap-2 px-4 py-2 text-sm hover:bg-gray-100 dark:hover:bg-slate-700 dark:text-white">
-                                    <Settings size={16} /> Settings
-                                </Link>
+                               
                                 <hr className="my-1 border-gray-200 dark:border-slate-700" />
                                 <button
                                     onClick={() => setUser({ ...user, isLoggedIn: false })}

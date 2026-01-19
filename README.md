@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🚀 LumenSoft Technology
 
-## Getting Started
+LumenSoft is a modern, high-performance web application built with **Next.js 15**. It features a premium user interface, dark mode support, and a complete authentication flow (Login/Register/Profile) with demo credentials.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+-   **Modern UI/UX:** Built with Tailwind CSS and Framer Motion for smooth animations.
+-   **Authentication:** Fully functional Login and Register pages with localized user session management.
+-   **User Dashboard:** A premium profile page to manage user information.
+-   **Dark Mode:** Integrated theme switching using `next-themes`.
+-   **Responsive Design:** Optimized for mobile, tablet, and desktop screens.
+-   **Dynamic Components:** Interactive Navbar, Footer, and Call-to-Action (CTA) sections.
+-   **Toast Notifications:** Real-time feedback using `react-hot-toast`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+-   **Framework:** [Next.js 15](https://nextjs.org/) (App Router)
+-   **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+-   **Icons:** [Lucide React](https://lucide.dev/)
+-   **Animations:** [Framer Motion](https://www.framer.com/motion/)
+-   **Notifications:** [React Hot Toast](https://react-hot-toast.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+Follow these steps to run the project locally:
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+🔑 Demo Credentials
+To test the authentication system, use the following details:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Email: admin@lumensoft.com
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Password: password123

@@ -20,7 +20,7 @@ const RegisterPage = () => {
         e.preventDefault();
         setError("");
 
-        // Validation লজিক
+        // Validation 
         if (formData.password !== formData.confirmPassword) {
             setError("Passwords do not match!");
             return;
@@ -31,7 +31,7 @@ const RegisterPage = () => {
             return;
         }
 
-        // সফল রেজিস্ট্রেশন সিমুলেশন
+        
         const newUser = { 
             name: formData.name, 
             email: formData.email, 
@@ -40,7 +40,7 @@ const RegisterPage = () => {
         localStorage.setItem("user", JSON.stringify(newUser));
         
         alert("Account created successfully!");
-        router.push("/"); // হোমপেজে রিডাইরেক্ট
+        router.push("/"); 
         window.location.reload(); 
     };
 

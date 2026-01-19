@@ -1,7 +1,8 @@
 "use client";
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Sparkles } from 'lucide-react';
+import { ArrowRight, LayoutGrid, Sparkles } from 'lucide-react';
+import Link from 'next/link';
 
 
 const CTA = () => {
@@ -43,22 +44,27 @@ const CTA = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col md:flex-row gap-6 justify-center items-center mb-5">
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-10 py-4 bg-white text-blue-600 font-bold text-lg rounded-lg hover:shadow-2xl transition-all flex items-center gap-2 group"
-            >
-              Contact Us Now
-              <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-            </motion.button>
+             <Link href="/contact">
+              <motion.button 
+                whileHover={{ scale: 1.05, y: -2 }}
+                whileTap={{ scale: 0.95 }}
+                className="px-10 py-5 bg-white text-[#3071b6] font-black text-lg rounded-2xl hover:shadow-[0_20px_50px_rgba(255,255,255,0.2)] transition-all flex items-center gap-2 group"
+              >
+                Contact Us Now
+                <ArrowRight size={22} className="group-hover:translate-x-1 transition-transform" />
+              </motion.button>
+            </Link>
 
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-10 py-4 bg-transparent text-white font-bold text-lg rounded-lg border-2 border-white hover:bg-white/10 transition-all"
-            >
-              View Our Portfolio
-            </motion.button>
+           <Link href="/portfolio">
+              <motion.button 
+                whileHover={{ scale: 1.05, y: -2 }}
+                whileTap={{ scale: 0.95 }}
+                className="px-10 py-5 bg-transparent border-2 border-white/30 text-white font-black text-lg rounded-2xl hover:bg-white/10 backdrop-blur-md transition-all flex items-center gap-2 group"
+              >
+                <LayoutGrid size={22} className="opacity-70" />
+                View Portfolio
+              </motion.button>
+            </Link>
           </div> 
 
         </motion.div>

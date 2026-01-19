@@ -3,11 +3,12 @@ import { ArrowRight, Sparkles } from 'lucide-react'
 import React from 'react'
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const Banner = () => {
   return (
     <div>
-      <section className="relative w-full min-h-[90vh] flex items-center overflow-hidden bg-blue-50 dark:bg-[#060a18] transition-colors duration-500">
+      <section className="relative w-full min-h-[90vh] flex items-center overflow-hidden bg-cyan-100 dark:bg-[#060a18] transition-colors duration-500">
       
       {/* Background Glows  */}
       <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500/20 rounded-full blur-[120px] dark:bg-blue-900/30" />
@@ -52,9 +53,9 @@ const Banner = () => {
             <button className="bg-[#255a91] hover:bg-[#378be6] text-white px-8 py-4 rounded-xl font-bold flex items-center gap-2 transition-all transform hover:scale-105 shadow-lg shadow-blue-500/25">
               Get Started <ArrowRight size={20} />
             </button>
-            <button className="border-2 border-blue-600 dark:border-slate-700 hover:border-blue-500 hover:bg-blue-600 dark:text-white px-8 py-4 rounded-xl font-bold transition-all">
+            <Link href="/portfolio"className="border-2 border-blue-600 dark:border-slate-700 hover:border-blue-500 hover:bg-blue-600 dark:text-white px-8 py-4 rounded-xl font-bold transition-all">
               View Projects
-            </button>
+            </Link>
           </div>
 
           {/* Trust Badges */}
