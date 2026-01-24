@@ -8,8 +8,8 @@ import toast from 'react-hot-toast';
 
 const LoginPage = () => {
     const [showPassword, setShowPassword] = useState(false);
-    const [email, setEmail] = useState('admin@lumensoft.com');
-    const [password, setPassword] = useState('password123');
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
     const router = useRouter()
     // Demo Credentials
     const DEMO_EMAIL = "admin@lumensoft.com";
