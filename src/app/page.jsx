@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+
 import Banner from "@/components/Banner/Banner";
 import Category from "@/components/Category/Category";
 import CTA from "@/components/CTA/CTA";
